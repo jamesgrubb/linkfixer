@@ -21,8 +21,9 @@
     "tests"
   ],
   "dependencies": {
-    "colors": "~2.2.0",
     "basscss-sass": "~1.0.2",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "colors": "https://github.com/jamesgrubb/colors.git"
+
   }
 }

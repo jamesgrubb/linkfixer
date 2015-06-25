@@ -1,37 +1,14 @@
-{
-  "name": "Colors",
-  "version": "2.2.0",
-  "homepage": "https://github.com/mrmrs/colors",
-  "authors": [
-    "@mrmrs <hi@mrmmrs.cc>"
-  ],
-  "description": "Better colors for the web.",
-  "keywords": [
-    "colors",
-    "web",
-    "hex",
-    "sass",
-    "scss",
-    "coffee",
-    "less",
-    "stylus",
-    "myth",
-    "css",
-    "better colors"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "index.html",
-    "site.css"
-  ],
-  "_release": "2.2.0",
+{ 
+  "main": "colors.scss",
+  "name": "colors",
+  "homepage": "https://github.com/jamesgrubb/colors",
+  "_release": "838ca25682",
   "_resolution": {
-    "type": "version",
-    "tag": "v2.2.0",
-    "commit": "9b23a5ee7c209c38e14fbe82adf208504cec2a2a"
+    "type": "branch",
+    "branch": "master",
+    "commit": "838ca25682adbe5f264fe2b0dfdea33867272ee9"
   },
-  "_source": "git://github.com/mrmrs/colors.git",
-  "_target": "~2.2.0",
-  "_originalSource": "colors",
-  "_direct": true
+  "_source": "https://github.com/jamesgrubb/colors.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/jamesgrubb/colors.git"
 }

@@ -3,3 +3,5 @@ default: []
 inject:
     - 'injector'
     - 'wiredep'
+style:
+    - 'sass'
