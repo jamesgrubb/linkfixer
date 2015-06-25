@@ -1,0 +1,23 @@
+{
+  "name": "linkfixer",
+  "version": "0.0.1",
+  "authors": [
+    "James Grubb <james@jamesgrubb.co.uk>"
+  ],
+  "description": "Fix filepaths created on a PC",
+  "main": "index.html",
+  "keywords": [
+    "webapp",
+    "utility",
+    "happy"
+  ],
+  "license": "MIT",
+  "homepage": "http://jamesgrubb.github.io/linkfixer",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
