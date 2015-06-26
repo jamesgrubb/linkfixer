@@ -2,3 +2,47 @@
 @import "../bower_components/basscss-sass/basscss.scss";
 @import "../bower_components/colors/colors.scss";
 // endbower
+
+@import "susy";
+@import "bourbon";
+
+.container{
+    background-color: pink;
+}
+
+@mixin reset{
+    width: 100%;
+    height: 100%;
+    display: block;
+    float: left;
+}
+
+body, html{
+    @include reset;    
+}
+
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-end;
+    align-items: stretch;
+
+}
+
+.top,.bottom{
+
+}
+
+.top{
+    // flex-grow: 10 ;
+    background-color: $teal;
+}
+
+.bottom{
+    // flex-grow: 1;
+    background-color: $red;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
